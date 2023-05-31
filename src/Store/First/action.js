@@ -2,8 +2,6 @@ import {
     GET_HOME_DATA_REQUEST,
     GET_HOME_DATA_SUCCESS,
     GET_HOME_DATA_FAILED,
-    STORE_USER_INFO,   
-    REMOVE_USER_INFO
   } from "./actiontypes";
   
   /**
@@ -23,14 +21,3 @@ import {
     type: GET_HOME_DATA_FAILED,
     payload: error, 
   });
-  
-  export const storeUserDetails = (payload) => ({
-    type:STORE_USER_INFO,
-    payload
-  })
-  
-  export const removeUserDetails = (payload) => ({
-    type:REMOVE_USER_INFO,
-    payload
-  })
-  

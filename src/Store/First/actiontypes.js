@@ -1,15 +1,3 @@
-/**
- * Get All Post Api
- */
 export const GET_HOME_DATA_REQUEST = "GET_HOME_DATA_REQUEST";
 export const GET_HOME_DATA_SUCCESS = "GET_HOME_DATA_SUCCESS";
 export const GET_HOME_DATA_FAILED = "GET_HOME_DATA_FAILED";
-export const STORE_USER_INFO = "STORE_USER_INFO";
-export const REMOVE_USER_INFO = "REMOVE_USER_INFO";
-
-/**
- * Create Post Api
- */
-// export const GET_HOME_DATA_REQUEST = "GET_HOME_DATA_REQUEST";
-// export const GET_HOME_DATA_SUCCESS = "GET_HOME_DATA_SUCCESS";
-// export const GET_HOME_DATA_FAILED = "GET_HOME_DATA_FAILED";
