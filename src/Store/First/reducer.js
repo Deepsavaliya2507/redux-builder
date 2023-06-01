@@ -20,17 +20,12 @@ export default (state = initState, action) => {
       state = {
         ...state,
         loading: false,
-        Firs: action.payload,
+        homePageData: action.payload,
       };
       break;
-    case STORE_USER_INFO:
-      state = {
-        ...state,
-        loading: false,
-        userInfomation: action.payload,
-      };
+      case GET_HOME_DATA_FAILED:
+      state = { ...state, loading: false, error: action.payload };
       break;
-
     default:
       break;
   }

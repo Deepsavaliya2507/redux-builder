@@ -4,9 +4,6 @@ import {
     GET_HOME_DATA_FAILED,
   } from "./actiontypes";
   
-  /**
-   * Get All Post Api
-   */
   export const getHomeDataRequest = (payload) => ({
     type: GET_HOME_DATA_REQUEST,
     payload,
