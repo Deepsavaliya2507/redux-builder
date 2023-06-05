@@ -1,4 +1,4 @@
-import {
+ import {
     GET_HOME_DATA_REQUEST,
     GET_HOME_DATA_SUCCESS,
     GET_HOME_DATA_FAILED,
